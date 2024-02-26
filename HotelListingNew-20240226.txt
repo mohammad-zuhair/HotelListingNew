@@ -1,0 +1,19 @@
+2024-02-26 12:19:48.924 +03:00  INF  Application started. Press Ctrl+C to shut down.
+2024-02-26 12:19:48.979 +03:00  INF  Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - -
+2024-02-26 12:19:48.995 +03:00  INF  Hosting environment: Development
+2024-02-26 12:19:48.996 +03:00  INF  Content root path: C:\Users\m-zuhair\Desktop\BookStoreProject\HotelListingNew\HotelListingNew
+2024-02-26 12:19:49.453 +03:00  INF  Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - - - 200 - text/html;charset=utf-8 478.3111ms
+2024-02-26 12:19:49.467 +03:00  INF  Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - -
+2024-02-26 12:19:49.472 +03:00  INF  Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.5526ms
+2024-02-26 12:19:49.547 +03:00  INF  Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - -
+2024-02-26 12:19:49.616 +03:00  INF  Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.7026ms
+2024-02-26 12:19:49.870 +03:00  INF  Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - -
+2024-02-26 12:19:50.048 +03:00  INF  Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 177.6213ms
+2024-02-26 12:19:54.547 +03:00  INF  Request starting HTTP/2 GET https://localhost:44384/WeatherForecast - -
+2024-02-26 12:19:54.566 +03:00  INF  Executing endpoint 'HotelListingNew.Controllers.WeatherForecastController.Get (HotelListingNew)'
+2024-02-26 12:19:54.595 +03:00  INF  Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[HotelListingNew.WeatherForecast] Get() on controller HotelListingNew.Controllers.WeatherForecastController (HotelListingNew).
+2024-02-26 12:19:54.597 +03:00  INF  Weather Forecast executing...
+2024-02-26 12:19:54.607 +03:00  INF  Executing ObjectResult, writing value of type 'HotelListingNew.WeatherForecast[]'.
+2024-02-26 12:19:54.625 +03:00  INF  Executed action HotelListingNew.Controllers.WeatherForecastController.Get (HotelListingNew) in 26.4248ms
+2024-02-26 12:19:54.626 +03:00  INF  Executed endpoint 'HotelListingNew.Controllers.WeatherForecastController.Get (HotelListingNew)'
+2024-02-26 12:19:54.626 +03:00  INF  Request finished HTTP/2 GET https://localhost:44384/WeatherForecast - - - 200 - application/json;+charset=utf-8 79.1568ms
