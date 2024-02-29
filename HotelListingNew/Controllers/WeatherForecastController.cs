@@ -2,8 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HotelListingNew.Controllers
 {
+   
+    [Route("api/[controller]")]
     [ApiController]
-    [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
